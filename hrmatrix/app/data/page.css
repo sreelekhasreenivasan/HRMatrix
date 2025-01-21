@@ -1,0 +1,63 @@
+.navbar-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+    cursor: pointer;
+ }
+
+.navbar {
+    padding-right: 50px;
+    background-color: rgba(7, 148, 141, 0.774);
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 10px 0;
+}
+
+.settings-icon {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.form-section {
+    margin: 20px auto;
+    max-width: 800px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-section h4 {
+    margin-bottom: 20px;
+    color: #07488D;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.update-icon {
+    font-size: 1.5rem;
+    color: #0d6efd;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

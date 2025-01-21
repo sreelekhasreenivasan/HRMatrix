@@ -1,0 +1,71 @@
+.navbar-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .navbar {
+    padding-right: 50px;
+    background-color: rgba(7, 148, 141, 0.774);
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 10px 0;
+  }
+
+  .settings-icon {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 15px;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-left: 5px;
+  }
+
+  .section {
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  }
+
+  .personal-details {
+    background: url('../../public/kishore-v-DqBL4Agtr6E-unsplash.jpg') no-repeat center/cover;
+  }
+
+  .educational-details {
+    background: url('../../public/pexels-magda-ehlers-pexels-1337374.jpg') no-repeat center/cover;
+  }
+
+  .account-details {
+    background: url('../../public/pexels-theivancauich-25961803.jpg') no-repeat center/cover;
+  }
+
+  .section-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .form-control {
+    border-radius: 8px;
+  }
+
+  .edit-icon {
+    cursor: pointer;
+    color: #ffc107;
+    font-size: 1.5rem;
+    margin-left: 15px;
+  
+  }

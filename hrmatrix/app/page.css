@@ -1,0 +1,141 @@
+
+        .section
+        {
+            background: linear-gradient(to bottom, #68B1D2, #033942);
+            
+
+        }
+
+        .hero {
+            margin-top: 100px;
+            background-color: #16c47e52;
+            padding: 20px;
+            position: relative;
+            width: 500px;
+        }
+
+        .circle {
+            position: absolute;
+            border-radius: 50%;
+            
+        }
+
+        .circle.one {
+            width: 300px;
+            height: 300px;
+            background-color: #c4161623;
+            top: 20px;
+            left: 20px;
+        }
+
+        .circle.two {
+            width: 200px;
+            height: 200px;
+            background-color: #c416163a;
+            top: 50px;
+            left: 150px;
+        }
+
+        .quote {
+            font-size: 1.4rem;
+            width: 500px;
+            color: white;
+            font-style: italic;
+            margin-top: 30px;
+            font-weight: bold;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+        }
+
+        .vertical-text {
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            position: relative;
+            z-index: 1;
+            margin: 20px auto;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .circle.three {
+            position: absolute;
+            background-color: #c416163a;
+            height: 200px;
+            width: 150px;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            z-index: 0;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .about-us-container {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .hero-image {
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .about {
+            margin-top: 200px;
+            margin-right: 600px;
+            margin-bottom: 200px;
+        }
+
+        .quote::before, .quote::after {
+            content: '"';
+            vertical-align: top;
+            color: #fff;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .contact-container {
+            margin-top: 100px;
+            position: relative;
+            margin-bottom: 100px;
+        }
+
+        .contact-form {
+            background-color: #ffffff22;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            width: 500px;
+    
+            margin-left: 500px;
+        }
+
+        .circle.contact-circle {
+            position: absolute;
+            background-color: #ff000069;
+            height: 250px;
+            width: 150px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 0;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .vertical-text.contact {
+            position: absolute;
+            height: 300px;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    
