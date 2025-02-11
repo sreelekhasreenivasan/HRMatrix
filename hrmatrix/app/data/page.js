@@ -23,6 +23,9 @@ const page = () => {
                 <label htmlFor="address" className="form-label">Address</label>
                 <textarea className="form-control" rows="3"></textarea>
             </div>
+            <button type="button" className="btn btn-success">
+                  Submit
+                </button>
         </form>
     </div>
 
