@@ -1,3 +1,2 @@
 # HRMatrix
-A NEXTJS project
 
